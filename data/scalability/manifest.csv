@@ -1,0 +1,9 @@
+scenario,json,parent_scenario,parent_json,total_nodes,parent_total_nodes,instance_id,truck_count,trucks_per_100_nodes,h_count,c_count,seed,time_horizon_hours,successor_gap,material_unit_kg,drone_tmax_sec,drone_Bv_kwh
+scal_final25_r8_n75_p1_t6,scal_final25_r8_n75_p1_t6.json,suite_v2_n50_i1_t3,../benchmark/suite_v2_n50_i1_t3.json,75,50,1,6,8.0,12,62,20261875,24,3,25,1200,4.0
+scal_final25_r8_n75_p2_t6,scal_final25_r8_n75_p2_t6.json,suite_v2_n50_i2_t4,../benchmark/suite_v2_n50_i2_t4.json,75,50,2,6,8.0,12,62,20261975,24,3,25,1200,4.0
+scal_final25_r8_n100_p1_t8,scal_final25_r8_n100_p1_t8.json,suite_v2_n50_i1_t3,../benchmark/suite_v2_n50_i1_t3.json,100,50,1,8,8.0,16,83,20261900,24,3,25,1200,4.0
+scal_final25_r8_n100_p2_t8,scal_final25_r8_n100_p2_t8.json,suite_v2_n50_i2_t4,../benchmark/suite_v2_n50_i2_t4.json,100,50,2,8,8.0,16,83,20262000,24,3,25,1200,4.0
+scal_final25_r8_n150_p1_t12,scal_final25_r8_n150_p1_t12.json,suite_v2_n50_i1_t3,../benchmark/suite_v2_n50_i1_t3.json,150,50,1,12,8.0,23,126,20261950,24,3,25,1200,4.0
+scal_final25_r8_n150_p2_t12,scal_final25_r8_n150_p2_t12.json,suite_v2_n50_i2_t4,../benchmark/suite_v2_n50_i2_t4.json,150,50,2,12,8.0,23,126,20262050,24,3,25,1200,4.0
+scal_final25_r8_n200_p1_t16,scal_final25_r8_n200_p1_t16.json,suite_v2_n50_i1_t3,../benchmark/suite_v2_n50_i1_t3.json,200,50,1,16,8.0,31,168,20262000,24,3,25,1200,4.0
+scal_final25_r8_n200_p2_t16,scal_final25_r8_n200_p2_t16.json,suite_v2_n50_i2_t4,../benchmark/suite_v2_n50_i2_t4.json,200,50,2,16,8.0,31,168,20262100,24,3,25,1200,4.0

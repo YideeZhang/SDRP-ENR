@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdrp-enr"
+version = "1.0.0"
+description = "Service-decoded route-pool matheuristic for electric-truck and drone relief logistics"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["gurobipy>=12,<14", "pandas>=2.2,<4", "networkx>=3,<4", "numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+sdrp-enr = "sdrp_enr.run_final_solver:main"
+
+[tool.setuptools]
+packages = ["sdrp_enr", "humanitarian_graph"]
+
+[tool.setuptools.package-dir]
+sdrp_enr = "sdrp_enr"
+humanitarian_graph = "src/humanitarian_graph"

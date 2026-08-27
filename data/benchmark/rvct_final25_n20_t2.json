@@ -1,0 +1,1003 @@
+{
+  "name": "rvct_final25_n20_t2",
+  "nodes": [
+    {
+      "node_id": "D0",
+      "node_type": "depot",
+      "x_km": -8.0,
+      "y_km": 0.0,
+      "p": 0,
+      "demand": 0,
+      "truck_accessible": true,
+      "size": "",
+      "cluster_id": "",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "depot"
+      }
+    },
+    {
+      "node_id": "H0",
+      "node_type": "H",
+      "x_km": 0.0,
+      "y_km": 0.0,
+      "p": 300,
+      "demand": 300,
+      "truck_accessible": true,
+      "size": "large",
+      "cluster_id": "H0",
+      "member_node_ids": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C13",
+        "C15"
+      ],
+      "p_m": 300,
+      "P_o": 60,
+      "R": 14.0,
+      "notes": {
+        "role": "corridor_endpoint_microgrid"
+      }
+    },
+    {
+      "node_id": "H1",
+      "node_type": "H",
+      "x_km": 49.0,
+      "y_km": 0.0,
+      "p": 300,
+      "demand": 300,
+      "truck_accessible": true,
+      "size": "large",
+      "cluster_id": "H1",
+      "member_node_ids": [
+        "C12",
+        "C14",
+        "C16"
+      ],
+      "p_m": 300,
+      "P_o": 60,
+      "R": 14.0,
+      "notes": {
+        "role": "corridor_endpoint_microgrid"
+      }
+    },
+    {
+      "node_id": "C0",
+      "node_type": "C",
+      "x_km": 7.0,
+      "y_km": 0.0,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C1",
+      "node_type": "C",
+      "x_km": 14.0,
+      "y_km": 0.515,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C2",
+      "node_type": "C",
+      "x_km": 21.0,
+      "y_km": 0.788,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C3",
+      "node_type": "C",
+      "x_km": 28.0,
+      "y_km": 0.691,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C4",
+      "node_type": "C",
+      "x_km": 35.0,
+      "y_km": 0.268,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C5",
+      "node_type": "C",
+      "x_km": 42.0,
+      "y_km": -0.281,
+      "p": 2,
+      "demand": 2,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_anchor"
+      }
+    },
+    {
+      "node_id": "C6",
+      "node_type": "C",
+      "x_km": 9.661,
+      "y_km": 4.006,
+      "p": 4,
+      "demand": 4,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_drone_only",
+        "access": "drone_only",
+        "corridor_segment": "C0->C1",
+        "launch_node": "C0",
+        "recovery_node": "C1"
+      }
+    },
+    {
+      "node_id": "C7",
+      "node_type": "C",
+      "x_km": 17.088,
+      "y_km": -3.167,
+      "p": 6,
+      "demand": 6,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_drone_only",
+        "access": "drone_only",
+        "corridor_segment": "C1->C2",
+        "launch_node": "C1",
+        "recovery_node": "C2"
+      }
+    },
+    {
+      "node_id": "C8",
+      "node_type": "C",
+      "x_km": 23.993,
+      "y_km": 4.547,
+      "p": 8,
+      "demand": 8,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_drone_only",
+        "access": "drone_only",
+        "corridor_segment": "C2->C3",
+        "launch_node": "C2",
+        "recovery_node": "C3"
+      }
+    },
+    {
+      "node_id": "C9",
+      "node_type": "C",
+      "x_km": 30.711,
+      "y_km": -3.28,
+      "p": 4,
+      "demand": 4,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_drone_only",
+        "access": "drone_only",
+        "corridor_segment": "C3->C4",
+        "launch_node": "C3",
+        "recovery_node": "C4"
+      }
+    },
+    {
+      "node_id": "C10",
+      "node_type": "C",
+      "x_km": 38.237,
+      "y_km": 3.826,
+      "p": 6,
+      "demand": 6,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "ct_corridor_drone_only",
+        "access": "drone_only",
+        "corridor_segment": "C4->C5",
+        "launch_node": "C4",
+        "recovery_node": "C5"
+      }
+    },
+    {
+      "node_id": "C11",
+      "node_type": "C",
+      "x_km": 2.0,
+      "y_km": 0.0,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand",
+        "access": "drone_only"
+      }
+    },
+    {
+      "node_id": "C12",
+      "node_type": "C",
+      "x_km": 48.742,
+      "y_km": 1.983,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H1",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand"
+      }
+    },
+    {
+      "node_id": "C13",
+      "node_type": "C",
+      "x_km": -1.934,
+      "y_km": -0.511,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand"
+      }
+    },
+    {
+      "node_id": "C14",
+      "node_type": "C",
+      "x_km": 49.756,
+      "y_km": -1.852,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H1",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand"
+      }
+    },
+    {
+      "node_id": "C15",
+      "node_type": "C",
+      "x_km": 1.739,
+      "y_km": 0.988,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": false,
+      "size": "small",
+      "cluster_id": "H0",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand",
+        "access": "drone_only"
+      }
+    },
+    {
+      "node_id": "C16",
+      "node_type": "C",
+      "x_km": 47.796,
+      "y_km": 1.597,
+      "p": 1,
+      "demand": 1,
+      "truck_accessible": true,
+      "size": "small",
+      "cluster_id": "H1",
+      "member_node_ids": [],
+      "p_m": 0,
+      "P_o": 0,
+      "R": 0.0,
+      "notes": {
+        "role": "suppressed_background_demand"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E_D0_H0",
+      "from_node": "D0",
+      "to_node": "H0",
+      "distance_km": 8.0,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "depot_to_corridor",
+      "notes": {
+        "truck_time_factor": 1.0
+      }
+    },
+    {
+      "edge_id": "E_H0_D0",
+      "from_node": "H0",
+      "to_node": "D0",
+      "distance_km": 8.0,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "depot_to_corridor",
+      "notes": {
+        "truck_time_factor": 1.0
+      }
+    },
+    {
+      "edge_id": "E_H1_D0",
+      "from_node": "H1",
+      "to_node": "D0",
+      "distance_km": 68.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "corridor_return",
+      "notes": {
+        "truck_time_factor": 1.0
+      }
+    },
+    {
+      "edge_id": "E_D0_H1",
+      "from_node": "D0",
+      "to_node": "H1",
+      "distance_km": 114.0,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "discouraged_direct_to_far_endpoint",
+      "notes": {
+        "truck_time_factor": 2.0
+      }
+    },
+    {
+      "edge_id": "E_H0_C0",
+      "from_node": "H0",
+      "to_node": "C0",
+      "distance_km": 7.0,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C0_H0",
+      "from_node": "C0",
+      "to_node": "H0",
+      "distance_km": 7.0,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C0_C1",
+      "from_node": "C0",
+      "to_node": "C1",
+      "distance_km": 7.019,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C1_C0",
+      "from_node": "C1",
+      "to_node": "C0",
+      "distance_km": 7.019,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C1_C2",
+      "from_node": "C1",
+      "to_node": "C2",
+      "distance_km": 7.005,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C2_C1",
+      "from_node": "C2",
+      "to_node": "C1",
+      "distance_km": 7.005,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C2_C3",
+      "from_node": "C2",
+      "to_node": "C3",
+      "distance_km": 7.001,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C3_C2",
+      "from_node": "C3",
+      "to_node": "C2",
+      "distance_km": 7.001,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C3_C4",
+      "from_node": "C3",
+      "to_node": "C4",
+      "distance_km": 7.013,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C4_C3",
+      "from_node": "C4",
+      "to_node": "C3",
+      "distance_km": 7.013,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C4_C5",
+      "from_node": "C4",
+      "to_node": "C5",
+      "distance_km": 7.021,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C5_C4",
+      "from_node": "C5",
+      "to_node": "C4",
+      "distance_km": 7.021,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C5_H1",
+      "from_node": "C5",
+      "to_node": "H1",
+      "distance_km": 7.006,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_H1_C5",
+      "from_node": "H1",
+      "to_node": "C5",
+      "distance_km": 7.006,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "linear_ct_corridor",
+      "notes": {
+        "truck_time_factor": 3.0
+      }
+    },
+    {
+      "edge_id": "E_C0_C6",
+      "from_node": "C0",
+      "to_node": "C6",
+      "distance_km": 4.809,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C6_C0",
+      "from_node": "C6",
+      "to_node": "C0",
+      "distance_km": 4.809,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C1_C6",
+      "from_node": "C1",
+      "to_node": "C6",
+      "distance_km": 5.569,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C6_C1",
+      "from_node": "C6",
+      "to_node": "C1",
+      "distance_km": 5.569,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C1_C7",
+      "from_node": "C1",
+      "to_node": "C7",
+      "distance_km": 4.806,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C7_C1",
+      "from_node": "C7",
+      "to_node": "C1",
+      "distance_km": 4.806,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C2_C7",
+      "from_node": "C2",
+      "to_node": "C7",
+      "distance_km": 5.563,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C7_C2",
+      "from_node": "C7",
+      "to_node": "C2",
+      "distance_km": 5.563,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C2_C8",
+      "from_node": "C2",
+      "to_node": "C8",
+      "distance_km": 4.805,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C8_C2",
+      "from_node": "C8",
+      "to_node": "C2",
+      "distance_km": 4.805,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C3_C8",
+      "from_node": "C3",
+      "to_node": "C8",
+      "distance_km": 5.561,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C8_C3",
+      "from_node": "C8",
+      "to_node": "C3",
+      "distance_km": 5.561,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C3_C9",
+      "from_node": "C3",
+      "to_node": "C9",
+      "distance_km": 4.808,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C9_C3",
+      "from_node": "C9",
+      "to_node": "C3",
+      "distance_km": 4.808,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C4_C9",
+      "from_node": "C4",
+      "to_node": "C9",
+      "distance_km": 5.566,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C9_C4",
+      "from_node": "C9",
+      "to_node": "C4",
+      "distance_km": 5.566,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C4_C10",
+      "from_node": "C4",
+      "to_node": "C10",
+      "distance_km": 4.81,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C10_C4",
+      "from_node": "C10",
+      "to_node": "C4",
+      "distance_km": 4.81,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C5_C10",
+      "from_node": "C5",
+      "to_node": "C10",
+      "distance_km": 5.57,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C10_C5",
+      "from_node": "C10",
+      "to_node": "C5",
+      "distance_km": 5.57,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "ct_corridor_drone_chord",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_H0_C11",
+      "from_node": "H0",
+      "to_node": "C11",
+      "distance_km": 2.0,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "background_drone_only",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C11_H0",
+      "from_node": "C11",
+      "to_node": "H0",
+      "distance_km": 2.0,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "background_drone_only",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_H0_C15",
+      "from_node": "H0",
+      "to_node": "C15",
+      "distance_km": 2.0,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "background_drone_only",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_C15_H0",
+      "from_node": "C15",
+      "to_node": "H0",
+      "distance_km": 2.0,
+      "truck_traversable": false,
+      "drone_traversable": true,
+      "role": "background_drone_only",
+      "notes": {}
+    },
+    {
+      "edge_id": "E_H1_C12",
+      "from_node": "H1",
+      "to_node": "C12",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_C12_H1",
+      "from_node": "C12",
+      "to_node": "H1",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_H0_C13",
+      "from_node": "H0",
+      "to_node": "C13",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_C13_H0",
+      "from_node": "C13",
+      "to_node": "H0",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_H1_C14",
+      "from_node": "H1",
+      "to_node": "C14",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_C14_H1",
+      "from_node": "C14",
+      "to_node": "H1",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_H1_C16",
+      "from_node": "H1",
+      "to_node": "C16",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    },
+    {
+      "edge_id": "E_C16_H1",
+      "from_node": "C16",
+      "to_node": "H1",
+      "distance_km": 2.4,
+      "truck_traversable": true,
+      "drone_traversable": true,
+      "role": "background_truck_access",
+      "notes": {
+        "truck_time_factor": 1.6
+      }
+    }
+  ],
+  "e_truck": {
+    "B": 600.0,
+    "Qt": 800,
+    "ev": 1.0,
+    "v": 30.0
+  },
+  "drone": {
+    "w": 2,
+    "q": 2,
+    "tmax": 1200,
+    "v": 15.0,
+    "Bv": 4.0
+  },
+  "metadata": {
+    "generator": "tune_rendezvous_ct_corridor_suite_final25",
+    "description": "Final25 CT-corridor rendezvous mechanism candidate.",
+    "assumptions": {
+      "official_parameter_suite": "final25",
+      "truck_count": 2,
+      "drones_per_truck": 3,
+      "truck_capacity_units": 800,
+      "truck_capacity_kg": 20000,
+      "drone_payload_kg": 50,
+      "drone_body_weight_kg": 50,
+      "material_unit_kg": 25,
+      "material_units_per_person": 1,
+      "rendezvous_successor_gap": 3,
+      "time_horizon_hours": 24,
+      "total_nodes": 20,
+      "h_count": 2,
+      "ct_count": 6,
+      "c_count": 17,
+      "ct_corridor_drone_only_count": 5,
+      "background_c_count": 6,
+      "seed": 20260798,
+      "candidate_id": "cand_007",
+      "corridor_nodes_per_segment": 1,
+      "corridor_demand_rule": "4,6,8",
+      "background_demand_rule": "1",
+      "truck_time_factor": 3.0,
+      "ct_anchor_density": "moderate"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Versions used to verify the 2026-08-27 cleanup (Python 3.12).
+gurobipy==13.0.1
+pandas==3.0.0
+numpy==2.4.2
+networkx==3.6.1
+matplotlib==3.10.8
